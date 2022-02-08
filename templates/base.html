@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="{{ url_for("static", filename="main.css") }}">
 </head>
 <body>
-    <h1 class="shadow">Titel der Webseite</h1>
-    <ul class="navbar shadow">
+<center><h1 class="shadow">Titel der Webseite</h1></center>
+    <ul class="nahrev">
         <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
+            <a class="nav-item" href="/">Home</a>
+    <h2>Willkommen!</h2>
+    <p>Herzlich willkommen auf dieser super Webseite</p>
+    <p>Klicken Sie <a href="/">hier</a> um zur Startseite zu kommen.</p>
         </li>
     </ul>
     <div id="content">
-    {% block content %}
-    {% endblock %}
     </div>
 </body>
 </html>
